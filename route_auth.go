@@ -1,10 +1,11 @@
 package main
 
 import (
-	"cardmanager/data"
 	"encoding/json"
 	"fmt"
 	"net/http"
+
+	"chokio0505.com/cardmanager/data"
 )
 
 func setCors(w http.ResponseWriter, r *http.Request) {

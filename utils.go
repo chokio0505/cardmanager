@@ -1,13 +1,14 @@
 package main
 
 import (
-	"cardmanager/data"
 	"encoding/json"
 	"errors"
 	"fmt"
 	"log"
 	"net/http"
 	"os"
+
+	"chokio0505.com/cardmanager/data"
 )
 
 var logger *log.Logger
